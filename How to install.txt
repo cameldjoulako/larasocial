@@ -1,0 +1,25 @@
+1) Install XAMPP, WAMP or MAMP.
+
+2) Paste the folder in "htdocs" folder if you have XAMPP, or paste in "www" if you have WAMP/MAMP.
+
+3) Create a database named "social_networking_site" in your phpMyAdmin.
+
+4) Open CMD in project root folder and run the following commands one-by-one:
+    a) composer update
+    b) php artisan migrate
+    c) php artisan db:seed --class=CountriesCitiesSeeder
+
+5) Open CMD in "public" folder and run the following command:
+    a) php artisan storage:link
+
+6) Open CMD inside "node-server" folder and run the following command (make sure you have Node JS installed):
+    a) npm update
+    b) npm install -g nodemon
+    c) nodemon server.js
+7) To create an admin, kindly follow below steps:
+    a) Create a new account.
+    b) Goto phpMyAdmin.
+    c) Search new account user in "users" table.
+    d) Edit the "role" column value to "admin"
+8) Access admin panel from following URL:
+    a) http://localhost/social-networking-site-laravel/admin

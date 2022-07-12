@@ -1,0 +1,43 @@
+.single-post .like,
+.single-post .unlike,
+.single-post .comment,
+.single-post .share {
+    border-radius: 0px !important;
+    padding: 10px !important;
+    background: none !important;
+    color: black !important;
+}
+
+/*-- Content Style --*/
+.post-footer-option li{
+    /*float:left;*/
+    /*margin-right:50px;*/
+    /*padding-bottom:15px;*/
+
+    width: 33%;
+    text-align: center;
+}
+
+.post-footer-option li a{
+    color:#AFB4BD;
+    font-weight:500;
+    font-size:1.3rem;
+}
+
+.photo-profile{
+    border:1px solid #DDD;    
+}
+
+.anchor-username h4{
+    font-weight:bold;
+    margin-bottom: 0px;   
+}
+
+.anchor-time{
+    color:#ADB2BB;
+    font-size:12px;
+}
+
+.post-footer-comment-wrapper{
+    background-color:#F6F7F8;
+}
